@@ -1,2 +1,1 @@
-# trabalhos
- 
+# repositorio destinado a trabalhos da faculdade.
