@@ -2,11 +2,11 @@ pedir nome do desafiante e do desafiado ok
 
 desafiador escolhe a palavra e a dica ok
 
-substituit letras por _ _ _ _ _ 
+substituit letras por _ _ _ _ _ ok
 
-substitui _ _ _ _ pela letra certa
+substitui _ _ _ _ pela letra certa 
 
-exibir letras que ja foram ditas
+exibir letras que ja foram ditas ok
 
 se errar a letra mostrar uma parte do boneco
 

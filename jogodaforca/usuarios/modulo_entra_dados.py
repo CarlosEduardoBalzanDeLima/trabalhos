@@ -16,9 +16,21 @@ def nome_desafiado():
 
 def input_palavra(jogador_desafiante):
     palavra = input(f'!!! {jogador_desafiante[0]} informe uma palavra para seu amigo(a) adivinhar: ')
-
     return palavra
 
 def input_dica(jogador_desafiante):
     dica = input('!!! Informe uma dica para seu amigo(a): ')
     return dica
+
+def informar_letra(jogador_desafiado):
+    letras = []
+    print(f'!!! {jogador_desafiado[0]}, agora é a sua vez de jogar !!!')
+    while True:
+        letra = input('Informe uma letra --> ')
+        if letra not in letras:
+            letras.append(letra)
+        else:
+            print('!!! Você ja informou esta letra !!!')
+
+
+    return letras

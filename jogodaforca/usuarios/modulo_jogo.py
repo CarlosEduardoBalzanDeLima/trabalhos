@@ -8,18 +8,6 @@ def menu():
     print()
     return menu
 
-def informar_letra(jogador_desafiado):
-    letras = []
-    print(f'!!! {jogador_desafiado[0]}, agora é a sua vez de jogar !!!')
-    while True:
-        letra = input('Informe uma letra --> ')
-        if letra not in letras:
-            letras.append(letra)
-        else:
-            print('!!! Você ja informou esta letra !!!')
-
-
-    return letras
 
 def comparar_letras(letras, palavra):
     letras = []

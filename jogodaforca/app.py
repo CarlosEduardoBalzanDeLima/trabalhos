@@ -1,5 +1,5 @@
-from usuarios.modulo_entra_dados import nome_desafiante, nome_desafiado, input_palavra, input_dica
-from usuarios.modulo_jogo import menu, informar_letra
+from usuarios.modulo_entra_dados import nome_desafiante, nome_desafiado, input_palavra, input_dica, informar_letra
+from usuarios.modulo_jogo import menu
 from interface.modulo_forca import mostrar_forca
 
 menu()
