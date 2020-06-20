@@ -1,15 +1,11 @@
-def menu():
-    print(' -='*40)
-    print('                                           BEM VINDO AO JOGO DA FORCA')
-    print(' -='*40)
-    print('         !!! A pessoa que irá desafiar, terá que informar uma palavra secreta para o desafiado !!!')
-    print('         !!! A pessoa desfiada terá que adivinhar qual palavra secreta é, informando uma letra de cada vez !!!')
-    print(' -='*40)
-    print()
-    return menu
-
-
-def comparar_letras(letras, palavra):
-    letras = []
+def dividir_palavra(palavra): #adiciona todas as letras da palavra em uma lista
+    lista_letras = []
     for i in range(len(palavra)):
-        letras.append(palavra[i])
+        lista_letras.append(palavra[i])
+    return lista_letras
+
+def esconder(palavra): #esconde a palavra
+    palavra_escondida = []
+    for n in range(0, len(palavra)):
+        palavra_escondida.append('_')
+    return palavra_escondida

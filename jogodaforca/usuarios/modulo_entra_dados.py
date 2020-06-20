@@ -1,36 +1,25 @@
-def nome_desafiante():
+def nome_desafiante(): #informa o nome do desafiante e guarda em uma lista
     desafiante = []
     nome = input('!!! Informe o nome da pessoa que vai ser o desafiante: ')
     desafiante.append(nome)
-    pontos = 0
-    desafiante.append(pontos)
     return desafiante
 
-def nome_desafiado():
+def nome_desafiado(): # informa o nome do desafiado e guarda em uma lista
     desafiado = []
     nome = input('!!! Informe o nome da pessoa que vai ser desafiada: ')
     desafiado.append(nome)
-    pontos = 0
-    desafiado.append(pontos)
     return desafiado
 
-def input_palavra(jogador_desafiante):
+def input_palavra(jogador_desafiante): # pede para o jogador desafiante uma palavra chave
     palavra = input(f'!!! {jogador_desafiante[0]} informe uma palavra para seu amigo(a) adivinhar: ')
     return palavra
 
-def input_dica(jogador_desafiante):
+def input_dica(jogador_desafiante): # pede para o jogador desafiante informar uma dica
     dica = input('!!! Informe uma dica para seu amigo(a): ')
     return dica
 
-def informar_letra(jogador_desafiado):
-    letras = []
+def informar_letra(jogador_desafiado): # agora pede para o jogador desafiado informar uma letra, sendo armazenado todas em uma lista  
     print(f'!!! {jogador_desafiado[0]}, agora é a sua vez de jogar !!!')
-    while True:
-        letra = input('Informe uma letra --> ')
-        if letra not in letras:
-            letras.append(letra)
-        else:
-            print('!!! Você ja informou esta letra !!!')
-
-
-    return letras
+    letra = str(input('Informe UMA letra --> '))
+    print(' -='*40)
+    return letra
